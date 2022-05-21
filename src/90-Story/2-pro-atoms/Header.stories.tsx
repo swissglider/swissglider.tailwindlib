@@ -7,7 +7,7 @@ import TailwindLib from '../..';
 export default {
     title: 'Internal/2-Pro-Atoms/Header',
     argTypes: {
-        searchFunc: { action: 'Search for: ' },
+        headerMenuProps: { searchFunction: { action: 'Search for: ' } },
     },
     args: {},
     parameters: {
@@ -48,7 +48,7 @@ const MenuList: Array<TailwindLib.Types.T_MenuItem> = [
     { itemId: 'MainMenu_Payments', name: 'Payments', icon: 'wallet', colors: colors['Payments'] },
 ];
 
-const StandardTemplate: ComponentStory<typeof Header> = ({ searchFunc }) => {
+const StandardTemplate: ComponentStory<typeof Header> = ({ headerMenuProps: { searchFunction } }) => {
     const [menuList, setMenuList] = useState<Array<TailwindLib.Types.T_MenuItem>>(MenuList);
     const onClick = (menuItem: string) => {
         const tmp: Array<TailwindLib.Types.T_MenuItem> = [...MenuList];
@@ -66,7 +66,7 @@ const StandardTemplate: ComponentStory<typeof Header> = ({ searchFunc }) => {
             headerMenuProps={{
                 menuList: menuList,
                 onClick: onClick,
-                searchFunction: searchFunc,
+                searchFunction: searchFunction,
             }}
         />
     );

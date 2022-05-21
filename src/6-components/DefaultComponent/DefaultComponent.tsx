@@ -1,5 +1,5 @@
 import React, { FC, useEffect } from 'react';
-import Button from '../../1-atoms/Buton';
+import Button from '../../1-atoms/Button';
 import { useDefaultHooks } from '../../10-addons/hooks/useDefaultHook';
 
 const DefaultComponent: FC<any> = () => {
@@ -10,7 +10,7 @@ const DefaultComponent: FC<any> = () => {
     }, []);
     return (
         <div>
-            <Button>Hallo Guido</Button>
+            <Button text="Test" icon="cube" textAfterIcon={false} mode="light" />
         </div>
     );
 };
