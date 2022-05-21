@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/swissglider/swissglider.tailwindlib/compare/v1.0.4...v1.0.5) (2022-05-21)
+
+
+### Features
+
+* ghp: init ([2fd7e20](https://github.com/swissglider/swissglider.tailwindlib/commit/2fd7e201147ad37c8487ced48d1c049e9f661ebc))
+
 ## [1.0.4](https://github.com/swissglider/swissglider.tailwindlib/compare/v1.0.3...v1.0.4) (2022-05-21)
 
 
