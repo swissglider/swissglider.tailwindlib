@@ -60,7 +60,7 @@ const StandardTemplate: ComponentStory<typeof Header> = ({ headerMenuProps: { se
     return (
         <Header
             headerTitleProps={{
-                title: 'Hallo2',
+                title: 'Hallo3',
                 textColor: 'text-red-600',
             }}
             headerMenuProps={{
