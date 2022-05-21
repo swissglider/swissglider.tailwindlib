@@ -24,4 +24,4 @@ export namespace TailwindLib {
     }
 }
 
-export default TailwindLib;
+// export default TailwindLib;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Title, Subtitle, Description, Primary, ArgsTable, PRIMARY_STORY } from '@storybook/addon-docs';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Header from '../../2-pro-atoms/Header';
-import TailwindLib from '../..';
+import { TailwindLib } from '../..';
 
 export default {
     title: 'Internal/2-Pro-Atoms/Header',
