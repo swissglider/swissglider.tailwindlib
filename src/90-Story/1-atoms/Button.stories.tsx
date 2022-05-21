@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Title, Subtitle, Description, Primary, ArgsTable, PRIMARY_STORY } from '@storybook/addon-docs';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import TailwindLib from '../../.';
+import { TailwindLib } from '../../.';
 
 export default {
     title: 'Internal/1-Atoms/Button',

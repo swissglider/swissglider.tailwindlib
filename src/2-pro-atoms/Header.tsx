@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import TailwindLib from '..';
+import { TailwindLib } from '..';
 import HeaderTitle, { T_HeaderTitleProps } from '../1-atoms/HeaderTitle';
 import { T_MenuProps } from '../1-atoms/Menu';
 
