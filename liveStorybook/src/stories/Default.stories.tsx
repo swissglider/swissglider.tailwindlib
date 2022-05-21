@@ -28,6 +28,7 @@ export default {
 };
 
 const DefaultComponentTemplate: any = () => {
+    console.log(DefaultAPP);
     return (
         <>
             <DefaultAPP.Components.DefaultComponent />
